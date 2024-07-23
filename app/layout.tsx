@@ -1,5 +1,11 @@
 import '@/app/ui/global.css'
 import { inter } from './ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Next Js Dashboard',
+  description: 'The official Next.js Course Dashboard, built with app router.',
+}
 
 export default function RootLayout({
   children,
